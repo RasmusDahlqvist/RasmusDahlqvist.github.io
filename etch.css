@@ -1,0 +1,70 @@
+body {
+    background-color: #F8ECCF;
+}
+
+button {
+    font-size: 4vh;
+    margin:1rem;
+    border: solid black 1px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+#rgb-button {
+    background-image: linear-gradient(to right, #ffb1b0,#FFDFBE,#FFFFBF,#B4F0A7,#A9D1F7,#CC99FF); 
+}
+
+h1 {
+    text-align: center;
+    color: #B05535;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    font-size: 6vh;
+    
+}
+
+#slider-output {
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    display: inline;
+}
+
+#grid-size-slider{
+    display: inline;
+}
+
+#slider-container {
+    
+}
+#buttons{
+    text-align: center;
+}
+
+#grid-container {
+    display: inline-grid;
+    margin-left:13rem;
+    margin-top: 2rem;
+    
+    grid-template-columns: repeat(16, 1fr); 
+   
+    gap: 1px;
+    
+   
+    width: 960px;
+    height: 480px;
+   
+  
+   
+    background-color:black;
+  
+}
+
+.square {
+    
+    
+    background-color: white;
+    width: 100%;
+}
+
