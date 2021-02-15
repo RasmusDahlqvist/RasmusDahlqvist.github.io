@@ -1,5 +1,5 @@
 body {
-    background-color:#E5B7CE;
+    background-color:whitesmoke;
     margin: 0;
 }
 
@@ -30,7 +30,7 @@ img {
 }
 
 footer {
-    background-color: #67C5E5;
+    background-color: #ED9358;
     height: 90vh;
     margin-top: 8rem;
     margin-bottom: 0rem;
@@ -78,7 +78,7 @@ h2 {
     font-size: 3.2vh;
 }
 .img_text {
-    background-color: #98D4BF;
+    background-color: #fff;
     border-top: 1px solid black;
     padding-top:1rem;
     margin-bottom: 0rem;
@@ -97,7 +97,9 @@ h2 {
 
 
 .nav_link:hover {
-    background-color: #ED9358;
+    text-decoration: line-through;
+    text-decoration-color: #ED9358;
+    text-decoration-thickness: 4px;
     padding-top: 1rem;
     padding-bottom: 1rem;
 } 
@@ -105,7 +107,7 @@ h2 {
 .project-tile {
     
     width: 27%;
-    background-color: white;
+    background-color: 000;
     margin-bottom: 2rem;
     border: solid black 1px;
     box-shadow: 1px 3px;
@@ -133,7 +135,7 @@ h2 {
 #welcome-section {
     height: 100vh;
     width: 100%;
-    background-color: #98D4BF;
+    background-color: #fff;
 }
 
 #projects {
